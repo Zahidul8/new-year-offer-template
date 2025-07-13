@@ -85,7 +85,7 @@ main{
 .discount-container img {
     width: 100%;
 }
-/* party sectio start  */
+/* party section start  */
 .party-section {
     background-image:linear-gradient(to right,rgba(0, 0, 0, 0.801),rgba(0, 0, 0, 0.205)), url('../images/Vectorrr.png');
     background-size: cover;
@@ -153,6 +153,7 @@ line-height: 1.5;
     padding: 16px 32px;
     border-radius: 8px;
     margin-top: 48px;
+    cursor: pointer;
 }
 
 /* offer section start  */
@@ -257,4 +258,139 @@ align-items: center;
 .background div {
     margin-bottom: 150px;
 }
+
+/* products section start  */
+
+.title {
+    font-size: 24px;
+    font-weight: 500;
+    color: red;
+}
+.product-heading {
+    font-size: 48px;
+    font-weight: 900;
+    margin: 20px 0;
+
+}
+
+.product-description {
+     font-size: 20px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.60);
+    line-height: 1.5;
+}
+
+.product-items {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+    margin-top: 48px;
+
+}
+
+/* newsletter section start  */
+.newsletter {
+    background-color: rgba(255, 0, 0, 0.05);
+    padding: 80px 0;
+    border-radius: 16px;
+}
+.letter-box {
+    max-width: 896px;
+    margin: auto;
+    margin-bottom: 48px;
+    text-align: center;
+}
+
+.letter-heading {
+    font-size: 48px;
+    font-weight: 900;
+    margin: 40px 0 22px 0;
+}
+.letter-description {
+     font-size: 20px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.60);
+    line-height: 1.5;
+}
+
+.subscribe-field {
+    text-align: center;
+}
+
+input[type="email"] {
+    
+   padding: 25px 30px;
+    border: none;
+    position: relative;
+    font-size: 18px;
+    width: 30%;
+    border-radius: 50px 0 0 50px;
+
+}
+
+input[type="email"]::placeholder {
+    font-size: 18px;
+
+}
+input[type="email"]:focus{
+    outline: none;
+}
+
+input[type="submit"]  {
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    background-color: red;
+    border: none;
+    padding: 25px 56px;
+    border-radius: 0 50px 50px 0;
+    cursor: pointer;
+}
+
+/* footer section start  */
+footer {
+    padding: 120px 280px;
+    background-color: #070211;
+    color: white;
+    /* max-width: 1600px;
+    margin: auto; */
+}
+.address-contact {
+    max-width: 1320px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+    margin-bottom: 50px;
+    font-weight: 500;
+}
+.address,.contact {
+     line-height: 1.6;
+}
+.contact p {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin: 48px 0;
+}
+
+.rights {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 48px;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.rights a {
+    text-decoration: none;
+    color: white;
+}
+
 
