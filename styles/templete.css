@@ -124,3 +124,137 @@ main{
     text-decoration: none;
     padding-left: 30px;
 }
+
+/* destination section start  */
+
+.destination {
+    padding: 100px 355px;
+    background-image: linear-gradient(rgba(255, 0, 0, 0.10), 20%, white);
+    border-radius: 16px;
+}
+
+.destination-container {
+text-align: center;
+font-size: 2em;
+font-weight: 600;
+line-height: 1.5;
+
+}
+.destination-container span {
+    color: #ff0000;
+}
+
+.join-btn {
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: #ff0000;
+    border: none;
+    padding: 16px 32px;
+    border-radius: 8px;
+    margin-top: 48px;
+}
+
+/* offer section start  */
+
+.offer-section {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+.best-offer {
+    width: 460px;
+}
+.sub-title {
+    color: #ff0000;
+    font-size: 24px;
+    font-weight: 500;
+    
+}
+.offer-title {
+    font-size: 3em;
+    font-weight: 900;
+    margin: 16px 0 22px 0;
+}
+.offer-description {
+    color: rgba(0, 0, 0, 0.60);
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.image-container {
+    width: 420px;
+    height: 420px;
+    border-radius: 50%;
+    border: 15px solid red;
+    padding: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 118px 0 70px;
+}
+.image-container img {
+    width: 360px;
+}
+
+.year-image {
+    width: 276px;
+}
+.years {
+    margin-bottom: 40px;
+}
+.year {
+    font-size: 48px;
+    font-weight: 700;
+    color: #ff0000;
+}
+.year-description {
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.60);
+        line-height: 1.5;
+
+}
+
+/* holiday section start  */
+
+.holiday-sale {
+    text-align: center;
+
+}
+
+.holiday-sub-title {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.holiday-heading {
+    font-size:4.5em ;
+    font-weight: 900;
+    margin: 16px 0 28px 0;
+}
+.holiday-heading span {
+    color: red;
+}
+.holiday-description {
+    font-size: 20px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.60);
+    padding: 0 170px;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.background {
+    height: 660px;
+    background-image:  url('../images/Adobe\ Express\ -\ file.png'),url('../images/Rectangle\ 2.png');
+    background-repeat: no-repeat;
+    background-position: bottom left,bottom ;
+    background-size: 60%, 100%;
+display: flex;
+justify-content: flex-end;
+align-items: center;
+}
+.background div {
+    margin-bottom: 150px;
+}
+
