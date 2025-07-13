@@ -1,0 +1,126 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body  {
+  font-family: "Merriweather", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:"wdth" 100;
+}
+
+body section {
+    margin-top: 120px;
+}
+
+
+.inter-millan {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/* header styles start */
+
+header {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.233)), url('../images/Banner\ Image.png');
+    background-position: center;
+    height: 600px;
+    margin: auto;
+    margin-top: 50px ;
+    max-width: 1320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+}
+
+
+.header-contents {
+    max-width: 48%;
+    text-align: center;
+    filter: brightness(1);
+}
+.sub-heading {
+    color: #ffffff;
+    font-size: 2em;
+}
+.heading {
+    color: #ffffff;
+    font-size: 4.5em;
+    font-weight: 900;
+}
+/* main section start  */
+main{
+    max-width: 1320px;
+    margin: auto;
+}
+/* discount section start  */
+
+.discount-container {
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+}
+
+.discount-title {
+    color: #ff0000;
+    font-size: 5.5em;
+    font-weight: 700;
+}
+.description {
+    font-weight: 500;
+    font-size: 1.5em;
+    margin: 48px 0 16px 0;
+}
+
+.discount-cate {
+    font-weight: 700;
+    font-size: 3em;
+    margin-bottom: 48px;
+}
+.discount-container img {
+    width: 100%;
+}
+/* party sectio start  */
+.party-section {
+    background-image:linear-gradient(to right,rgba(0, 0, 0, 0.801),rgba(0, 0, 0, 0.205)), url('../images/Vectorrr.png');
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    gap: 40px;
+    padding: 68px 138px 68px 100px;
+    border-radius: 16px;
+}
+
+.section-content {
+    margin-top: 58px;
+}
+
+.greetings {
+    font-size: 4em;
+    font-weight: 900;
+    color: #ffffff;
+    padding-right: 80px;
+    letter-spacing:11px;
+    line-height: 1.4;
+}
+
+.party-description {
+    font-size:1.125em ;
+    color: rgba(255, 255, 255, 0.8);
+    line-height: 1.5;
+    margin: 24px 0 48px 0;
+}
+
+.join {
+    color: white;
+    text-transform: uppercase;
+    font-size:1.25em ;
+    font-weight: 700;
+    text-decoration: none;
+    padding-left: 30px;
+}
